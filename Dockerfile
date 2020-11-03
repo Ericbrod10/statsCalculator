@@ -2,4 +2,6 @@ FROM python:3
 
 ADD src /src
 
-CMD [ "python", "./src/CalculatorTest.py"]
+RUN pip install -r requirements.txt
+
+CMD [ "python", "-m", "unittest", "discover", "-s", "unitTests"]
