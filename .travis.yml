@@ -1,0 +1,13 @@
+language: python
+python:
+  - "3.7.1"
+install:
+  - pip install -r numpty
+
+script:
+  - python -m CalcluatorTest discover -s unitTests
+
+branches:
+  only:
+    - main
+    - development
