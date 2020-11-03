@@ -3,8 +3,11 @@
 [![Build Status](https://travis-ci.com/rn44/statsCalculator.svg?branch=main)](https://travis-ci.com/rn44/statsCalculator)
 
 ## ChangeLog
-  * 110220
+  * rnunes110220
     * work on initial setup (docker, python, etc.)
     * split previous project files into more modular setup
-    * start to work on travisCI integration
+    * complete travisCI integration
+    
+  * rnunes110320
+    * working on why unit tests are not running
     
