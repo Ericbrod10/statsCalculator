@@ -1,11 +1,11 @@
 language: python
 python:
   - "3.7.1"
-install:
-  - pip install -r numpty
+# install:
+  # - pip install -r numpty
 
-script:
-  - python -m unittest discover -s unitTests
+# script:
+  # - python -m unittest discover -s unitTests
 
 branches:
   only:
