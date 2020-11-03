@@ -16,3 +16,7 @@ class MyTestCase(unittest.TestCase):
         for row in file_data:
             print(row)
         file_data.clear()
+
+
+if __name__ == '__main__':
+    unittest.main()
