@@ -11,3 +11,6 @@
   * rnunes110320
     * working on why unit tests are not running
     
+  * rnunes110520
+    * unit tests now working properly
+    
