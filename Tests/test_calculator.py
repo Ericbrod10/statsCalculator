@@ -39,6 +39,9 @@ class MyTestCase(unittest.TestCase):
     def test_division_method_calculator(self):
         filepath = './Tests/testCSVs/Unit Test Division.csv'
         file_data = self.datafile.parse(filepath)
+        # Test divide by 0
+        self.assertEqual(self.calculator.divide(5, 0), 1)
+        # Test CSV Data
         for row in file_data:
             self.assertEqual(self.calculator.divide(row['Value 2'], row['Value 1']), float(row['Result']))
         file_data.clear()
