@@ -60,6 +60,10 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(round(self.calculator.root(row['Value 1']), 8), round(float(row['Result']), 8))
         file_data.clear()
 
+    def test_mean_method_calculator(self):
+        dataList = [2, 5, 7, 10]
+        self.assertEqual(self.calculator.mean(dataList), 6)
+
 
 if __name__ == '__main__':
     unittest.main()
