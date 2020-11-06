@@ -13,4 +13,6 @@
     
   * rnunes110520
     * unit tests now working properly
+    * divide by 0 error handling implemented
+    * empty list error handling implemented
     
