@@ -64,6 +64,10 @@ class MyTestCase(unittest.TestCase):
         datalist = [2, 5, 7, 10]
         self.assertEqual(self.calculator.mean(datalist), 6)
 
+    def test_mode_method_calculator(self):
+        datalist = [4, 5, 7, 10]
+        self.assertEqual(self.calculator.mode(datalist), 6)
+
 
 if __name__ == '__main__':
     unittest.main()
