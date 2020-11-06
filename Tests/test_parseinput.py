@@ -17,12 +17,12 @@ class MyTestCase(unittest.TestCase):
 #            print(row)
 #        file_data.clear()
 
-    def test_empty_list(self):
-        filepath = './Tests/testCSVs/Unit Test Empty.csv'
-        file_data = self.datafile.parse(filepath)
-        for row in file_data:
-            print(row)
-        file_data.clear()
+#    def test_empty_list(self):
+#        filepath = './Tests/testCSVs/Unit Test Empty.csv'
+#        file_data = self.datafile.parse(filepath)
+#        for row in file_data:
+#            print(row)
+#        file_data.clear()
 
 
 if __name__ == '__main__':
