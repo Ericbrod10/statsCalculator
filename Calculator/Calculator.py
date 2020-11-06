@@ -5,6 +5,7 @@ from Calculator.Division import division
 from Calculator.Squared import squared
 from Calculator.Sqroot import sqroot
 from Statistics.Mean import mean
+from Statistics.Mode import mode
 
 
 class Calculator:
@@ -39,4 +40,8 @@ class Calculator:
 
     def mean(self, a):
         self.result = mean(a)
+        return self.result
+
+    def mode(self, a):
+        self.result = mode(a)
         return self.result
