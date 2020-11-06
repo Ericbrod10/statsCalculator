@@ -66,7 +66,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_mode_method_calculator(self):
         datalist = [4, 5, 7, 10]
-        self.assertEqual(self.calculator.mode(datalist), 6)
+        self.assertEqual(self.calculator.median(datalist), 6)
 
 
 if __name__ == '__main__':
