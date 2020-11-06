@@ -1,5 +1,9 @@
 def division(a, b):
-    a = float(a)
     b = float(b)
-    c = round(a / b, 9)
-    return c
+    if b == 0:
+        c = 0
+        raise Exception('Cannot divide by 0.')
+    else:
+        a = float(a)
+        c = round(a / b, 9)
+        return c

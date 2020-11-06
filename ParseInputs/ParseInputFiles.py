@@ -17,5 +17,8 @@ class ParseInputFiles:
             for row in csv_reader:
                 self.data.append(row)
                 # print(row)
-        return self.data
+        if not self.data:
+            raise Exception('List is empty.')
+        else:
+            return self.data
 
