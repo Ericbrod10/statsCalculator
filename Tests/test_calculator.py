@@ -63,10 +63,17 @@ class MyTestCase(unittest.TestCase):
     def test_mean_method_calculator(self):
         datalist = [2, 5, 7, 10]
         self.assertEqual(self.calculator.mean(datalist), 6)
+        datalist.clear()
 
-    def test_mode_method_calculator(self):
+    def test_median_method_calculator(self):
         datalist = [4, 5, 7, 10]
         self.assertEqual(self.calculator.median(datalist), 6)
+        datalist.clear()
+
+    def test_mode_method_calculator(self):
+        datalist = [4, 5, 5, 7, 10]
+        self.assertEqual(self.calculator.median(datalist), 5)
+        datalist.clear()
 
 
 if __name__ == '__main__':
