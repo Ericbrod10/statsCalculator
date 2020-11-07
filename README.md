@@ -21,3 +21,6 @@
     * added mode, variance, and standard deviation method to statistics module
     * added accompanying tests  
     
+  * ericbrod110720
+    * Reduced Code in Unit Tests
+    

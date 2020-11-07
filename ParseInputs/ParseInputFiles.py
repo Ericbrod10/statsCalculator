@@ -9,7 +9,7 @@ class ParseInputFiles:
     data = []
 
     def __init__(self):
-        pass
+        self.data = []
 
     def parse(self, filepath):
         with open(filepath, 'r') as csv_file:
@@ -21,4 +21,3 @@ class ParseInputFiles:
             raise Exception('List is empty.')
         else:
             return self.data
-
