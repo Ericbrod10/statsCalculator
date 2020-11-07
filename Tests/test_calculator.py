@@ -81,6 +81,12 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.calculator.variance(datalist), 28.822364260579157)
         datalist.clear()
 
+    def test_stddev_method_calculator(self):
+        datalist = [-14.82381293, -0.29423447, -13.56067979, -1.6288903, -0.31632439, 0.53459687, -1.34069996,
+                    -1.61042692, -4.03220519, -0.24332097]
+        self.assertEqual(self.calculator.stddev(datalist), 5.36864640860051)
+        datalist.clear()
+
 
 if __name__ == '__main__':
     unittest.main()
