@@ -87,6 +87,15 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.calculator.stddev(datalist), 5.36864640860051)
         datalist.clear()
 
+    def test_zscore_method_calculator(self):
+        datalist = [-14.82381293, -0.29423447, -13.56067979, -1.6288903, -0.31632439, 0.53459687, -1.34069996,
+                    -1.61042692, -4.03220519, -0.24332097]
+        testresults = [-2.0661098311914157, 0.640266665633516, -1.8308302013062225, 0.39166474097297277,
+                       0.6361520493375699, 0.7946503364731938, 0.4453450018928058, 0.39510385366447387,
+                       -0.055992770266716466, 0.6497501547898212]
+        self.assertEqual(self.calculator.zscore(datalist), testresults)
+        datalist.clear()
+
 
 if __name__ == '__main__':
     unittest.main()
