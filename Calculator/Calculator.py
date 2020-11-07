@@ -6,6 +6,7 @@ from Calculator.Squared import squared
 from Calculator.Sqroot import sqroot
 from Statistics.Mean import mean
 from Statistics.Median import median
+from Statistics.Mode import mode
 
 
 class Calculator:
@@ -45,3 +46,8 @@ class Calculator:
     def median(self, a):
         self.result = median(a)
         return self.result
+
+    def mode(self, a):
+        self.result = mode(a)
+        return self.result
+
