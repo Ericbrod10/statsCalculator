@@ -7,6 +7,7 @@ from Calculator.Sqroot import sqroot
 from Statistics.Mean import mean
 from Statistics.Median import median
 from Statistics.Mode import mode
+from Statistics.Variance import variance
 
 
 class Calculator:
@@ -51,3 +52,6 @@ class Calculator:
         self.result = mode(a)
         return self.result
 
+    def variance(self, a):
+        self.result = variance(a)
+        return self.result
