@@ -16,4 +16,8 @@
     * divide by 0 error handling implemented
     * empty list error handling implemented
     * added statistics modules with mean and median methods
+  
+  * rnunes110720
+    * added mode, variance, and standard deviation method to statistics module
+    * added accompanying tests  
     
