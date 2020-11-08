@@ -4,6 +4,7 @@ from RandomGen.RandomRange import randDec
 from RandomGen.RandomRange import randInt
 from RandomGen.RandomList import randDecList
 from RandomGen.RandomList import randIntList
+from RandomGen.SelectRandom import selectRand
 
 
 class MyTestCase(unittest.TestCase):
@@ -29,6 +30,17 @@ class MyTestCase(unittest.TestCase):
         self.assertIs(type(datalist[1]), float)
         # print(datalist)
         datalist.clear()
+
+    def test_selectRandom_generator(self):
+        datalist = randIntList(5, 0, 100)
+        # Select random element
+        singlerandom = selectRand(datalist)
+        self.assertIs(type(singlerandom), int)
+        # Select N random elements
+        randomlist = selectRand(datalist, 2)
+        self.assertIs(type(randomlist), list)
+        datalist.clear()
+
 
 
 if __name__ == '__main__':
