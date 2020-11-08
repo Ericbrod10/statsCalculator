@@ -2,6 +2,19 @@
 
 [![Build Status](https://travis-ci.com/rn44/statsCalculator.svg?branch=main)](https://travis-ci.com/rn44/statsCalculator)
 
+
+![ProgramDiagram](./Diagrams/Diagram.jpg)
+
+Diagrams/Diagram.jpg
+
+
+
+
+
+
+
+
+
 ## ChangeLog
   * rnunes110220
     * work on initial setup (docker, python, etc.)
@@ -23,4 +36,5 @@
     
   * ericbrod110720
     * Reduced Code in Unit Tests
+    * Building Program Diagram
     
