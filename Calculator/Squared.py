@@ -1,4 +1,4 @@
 def squared(a):
-    a = int(a)
+    a = float(a)
     b = a * a
     return b
