@@ -86,4 +86,7 @@ class Calculator:
         self.result = CochranSampleSize(a, b, c, d)
         return self.result
 
+    def FindUnknownStdPopSampleSize(self, a, b, c):
+        self.result = UnknownPopStdSampleSize(a, b, c)
+        return self.result
 

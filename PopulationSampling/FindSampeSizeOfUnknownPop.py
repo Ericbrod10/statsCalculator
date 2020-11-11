@@ -6,7 +6,7 @@ from Calculator.Squared import squared
 import math
 
 
-def UnknownPopStdSampleSize(data, confidenceInterval, marginOfError, percentSample):
+def UnknownPopStdSampleSize(confidenceInterval, marginOfError, percentSample):
     z = confidenceInterval
     if isinstance(marginOfError, float):
         marginOfError = marginOfError
@@ -40,4 +40,3 @@ def UnknownPopStdSampleSize(data, confidenceInterval, marginOfError, percentSamp
     result = multiplication(SampleMultiply, square)
     result = math.ceil(result)
     return result
-
