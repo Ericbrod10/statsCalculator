@@ -6,7 +6,7 @@ from Calculator.Squared import squared
 import math
 
 
-def unknown_pop_stand_deviation(data, confidenceInterval, marginOfError, percentSample):
+def UnknownPopStdSampleSize(data, confidenceInterval, marginOfError, percentSample):
     z = confidenceInterval
     if isinstance(marginOfError, float):
         marginOfError = marginOfError

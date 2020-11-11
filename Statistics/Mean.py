@@ -1,2 +1,5 @@
 def mean(a):
-    return sum(a)/len(a)
+    PointsSum = 0
+    for i in a:
+        PointsSum = PointsSum + float(i)
+    return PointsSum / len(a)

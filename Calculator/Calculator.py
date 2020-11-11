@@ -10,7 +10,11 @@ from Statistics.Mode import mode
 from Statistics.Variance import variance
 from Statistics.StandardDev import stddev
 from Statistics.ZScore import zscore
-
+from PopulationSampling.RandomSampling import SimpleRandomSampling
+from PopulationSampling.ConfidenceInterval import ConfidenceInterval
+from PopulationSampling.MarginOfError import MarginOfError
+from PopulationSampling.Cochran import CochranSampleSize
+from PopulationSampling.FindSampeSizeOfUnknownPop import UnknownPopStdSampleSize
 
 class Calculator:
     result = 0
@@ -65,3 +69,21 @@ class Calculator:
     def zscore(self, a):
         self.result = zscore(a)
         return self.result
+
+    def randSample(self, a, b):
+        self.result = SimpleRandomSampling(a, b)
+        return self.result
+
+    def ConfidenceInt(self, a, b):
+        self.result = ConfidenceInterval(a, b)
+        return self.result
+
+    def MarginOfError(self, a, b):
+        self.result = MarginOfError(a, b)
+        return self.result
+
+    def Cochran(self, a, b, c, d):
+        self.result = CochranSampleSize(a, b, c, d)
+        return self.result
+
+

@@ -29,4 +29,5 @@
     * Reduced Code in Unit Tests
     * Building Program Diagram
     * Added Population Sampling Functions
+    * Added Random Test Stat Data
     
