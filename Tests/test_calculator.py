@@ -4,6 +4,8 @@ from Calculator.Calculator import Calculator
 from ParseInputs.ParseInputFiles import ParseInputFiles
 
 
+
+
 class MyTestCase(unittest.TestCase):
     def setUp(self) -> None:
         self.calculator = Calculator()
@@ -83,6 +85,7 @@ class MyTestCase(unittest.TestCase):
                        0.6361520493375699, 0.7946503364731938, 0.4453450018928058, 0.39510385366447387,
                        -0.055992770266716466, 0.6497501547898212]
         self.assertEqual(self.calculator.zscore(datalist), testresults)
+
 
 
 if __name__ == '__main__':

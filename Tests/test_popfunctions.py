@@ -1,9 +1,6 @@
 import unittest
-
 from Calculator.Calculator import Calculator
 from ParseInputs.ParseInputFiles import ParseInputFiles
-import numpy as np
-import json
 
 
 def convertDatatoList(data):
