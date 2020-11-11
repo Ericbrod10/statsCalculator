@@ -28,5 +28,9 @@
   * ericbrod110720
     * Reduced Code in Unit Tests
     * Building Program Diagram
+    
+  * ericbrod111120
     * Added Population Sampling Functions
+    * Added Random Test Stat Data
+    * Added Unit Tests for All Population Functions
     

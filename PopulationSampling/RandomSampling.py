@@ -1,6 +1,8 @@
-from random import random
+from RandomGen.SelectRandom import selectRand
 
 
-def getSample(data, sample_size):
-    random_values = random.sample(data, k=sample_size)
-    return random_values
+def SimpleRandomSampling(list, num):
+
+    return_list = selectRand(list, num)
+    return return_list
+

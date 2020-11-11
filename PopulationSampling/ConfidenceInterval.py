@@ -1,10 +1,11 @@
 from Statistics.Mean import mean
 from Calculator.Subtraction import subtraction
 import scipy.stats as st
+import numpy as np
 
 
 def ConfidenceInterval(Data, ConfidenceLevel):
-        # Uses T distribution for under 30
+    # Uses T distribution for under 30
     if len(Data) < 30:
         DegreesOfFreedom = subtraction(len(Data), 1)
         DataMean = mean(Data)
