@@ -14,19 +14,19 @@
   * Use Issues to Work on Tasks:** Acts as a checklist
    
 ## Implement Basic Calculator Functions
-  * Addition Function -> Finds the sum of two numbers -> Completed
-  * Subtraction Function -> Finds the difference of two numbers -> Completed
-  * Multiplication Function -> Multiplies two numbers together -> Completed 
-  * Division Function -> Divides two numbers and has a divide by zero error catch -> completed
-  * Square Root Function -> Finds the Square Root of a number -> Completed
-  * Square Function -> Squares a number -> Completed
+  * Addition Function -> Finds the sum of two numbers -> Ex: 5 + 5 = 10 -> Completed 
+  * Subtraction Function -> Finds the difference of two numbers -> Ex: 7 - 5 = 2 -> Completed
+  * Multiplication Function -> Multiplies two numbers together -> Ex: 7 * 5 = 35 -> Completed 
+  * Division Function -> Divides two numbers and has a divide by zero error catch -> Ex: 35 / 5 = 7, Ex2: 10/0 = 'Cannot divide by 0.' -> completed
+  * Square Root Function -> Finds the Square Root of a number -> Ex: SqRoot(144) = 12 -> Completed
+  * Square Function -> Squares a number -> Ex: Squared(7) = 49 -> Completed
   
   
 ## Implement Stat Calculator Functions
-  * Mean Function -> Finds the Mean of a list -> Completed
-  * Median -> Sorts a list and find the median -> Completed
-  * Mode -> Finds the number with the most occurrences in a list -> Completed
-  * Variance -> Finds the Variance of a list -> Completed
+  * Mean Function -> Finds the Mean of a list -> Ex: mean([5, 10, 15, 20]) = 5 + 10 + 15 + 20 = 50 / 4 = 12.5 ->Completed
+  * Median -> Sorts a list and find the median -> Ex: median([5, 10, 15, 20, 25]) = 15 -> Completed
+  * Mode -> Finds the number with the most occurrences in a list -> Ex: mode([5, 5, 5, 20, 25]) = 5 -> Completed
+  * Variance -> Finds the Variance of a list, finds the sum of the elements subtracted by the mean and squared and divided by the number of elements -> Var([5, 10, 15, 20, 25, 5]) = 55.55 -> Completed
   * Standard Deviation -> Uses the Variance Function to find the Variance and Uses the SquareRoot Function on the Variance to find the Standard Deviation -> Completed
   * Z-Score -> Returns a z-Score Value for every element in a list, takes element and subtracts the mean of the list and divided by the standard deviation -> Completed
 
@@ -48,6 +48,7 @@
   
 ## Additional Modules
   * Random Number Generator -> Completed in RandomGen
+  * Parse Inputs for reading in CSV files -> Completed
 
 ## Implement Unit Tests for All Function Listed Above
   * Simple Calculator Functions -> Completed
