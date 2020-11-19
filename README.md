@@ -1,4 +1,5 @@
 # statsCalculator
+[Task List](TaskList.md)
 
 [![Build Status](https://travis-ci.com/rn44/statsCalculator.svg?branch=main)](https://travis-ci.com/rn44/statsCalculator)
 
