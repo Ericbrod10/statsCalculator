@@ -2,6 +2,7 @@
 
 ## Create a Project Outline:
   * Create Calculator Object
+  * Create Diagram of Calculator Object
   * Add Random Generator Object
   * Add Statistics Capabilities to Calculator Object 
   * Add Statistics to Calculator Object 
